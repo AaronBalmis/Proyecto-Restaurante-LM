@@ -14,6 +14,7 @@ header{
 
 :root{
   --primary-color: #BF2188; 
+  --glitched-duration: 0.9s;
   --second-color : #F22E76;
   --third-color: #411D59;
   --fourth-color: #F2A444;
@@ -86,12 +87,14 @@ nav{
   background: rgb(241, 241, 0);
   cursor: pointer;
   color: black;
-  transition: background 0.4s ease;
-  border-radius: 40px;
-
+  animation: glitch 0.5s infinite;
 }
 .nav-list a:focus{
   outline: 0;
   box-shadow: 0.5px -0.5px 6px 1px yellow, -0.5px 1.5px 6px 1px yellow;
   transition: box-shadow 0.1s ease;
 }
+
+
+
+/*///////// Animaciones ////////*/
