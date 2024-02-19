@@ -10,6 +10,7 @@ body{
 header{
   position: relative;
   width: 100%;
+  min-height: 20vh;
 }
 
 /*/////////////////////CABECERA/////////////////////*/
@@ -38,7 +39,7 @@ div.logo-container{
 
 .logo-container .header-img{
   width: auto;
-  height: 50px;
+  height: 200px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -84,4 +85,9 @@ nav{
   outline: 0;
   box-shadow: 0.5px -0.5px 6px 1px yellow, -0.5px 1.5px 6px 1px yellow;
   transition: box-shadow 0.1s ease;
+}
+
+.principal{
+  min-height: 30vh;
+  margin-top: 25%;
 }
