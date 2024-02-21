@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 body{
-
+  min-height: 100vh;
   font-family: monospace, 'Courier New', Courier;
+  background-image: url(/Recursos/IMG/Ciudad-Neon.jpg);
 }
+
 header{
   position: relative;
   width: 100%;
+  min-height: 20vh;
 }
 
 /*/////////////////////CABECERA/////////////////////*/
@@ -84,5 +87,10 @@ nav{
   outline: 0;
   box-shadow: 0.5px -0.5px 6px 1px yellow, -0.5px 1.5px 6px 1px yellow;
   transition: box-shadow 0.1s ease;
+}
+
+.principal{
+  min-height: 30vh;
+  margin-top: 25%;
 }
 
