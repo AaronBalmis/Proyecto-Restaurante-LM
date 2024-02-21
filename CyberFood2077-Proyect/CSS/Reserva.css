@@ -16,6 +16,18 @@ header{
   min-height: 20vh;
 }
 
+:root{
+  --primary-color: #BF2188; 
+  --glitched-duration: 0.9s;
+  --second-color : #F22E76;
+  --third-color: #411D59;
+  --fourth-color: #F2A444;
+  --fifth--color: #42FBFD;
+  --sixth--color: #2F71AB;
+  --seventh--color:#1B2350;
+  
+}
+
 /*/////////////////////CABECERA/////////////////////*/
 
 .header-fixed{
@@ -39,7 +51,7 @@ div.logo-container{
   justify-content: center;
 }
 
-.logo-container .header-img{
+.logo-container .logo{
   width: auto;
   height: 200px;
   margin-top: 5px;

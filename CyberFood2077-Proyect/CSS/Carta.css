@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  background-image: url(/Recursos/IMG/carta.jpg);
+  background: no-repeat;
+}
 body{
-  background: black;
   font-family: monospace, 'Courier New', Courier;
 }
 header{
@@ -12,6 +15,17 @@ header{
   width: 100%;
 }
 
+:root{
+  --primary-color: #BF2188; 
+  --glitched-duration: 0.9s;
+  --second-color : #F22E76;
+  --third-color: #411D59;
+  --fourth-color: #F2A444;
+  --fifth--color: #42FBFD;
+  --sixth--color: #2F71AB;
+  --seventh--color:#1B2350;
+  
+}
 /*/////////////////////CABECERA/////////////////////*/
 
 .header-fixed{
@@ -28,7 +42,7 @@ header{
   justify-content: space-between;
   z-index: 10;
   box-sizing: border-box;
-  box-shadow: 0 -1px 10px 3px #f95dff
+  box-shadow: 0 -1px 10px 3px var(--second-color)
 }
 div.logo-container{
   margin: 5px;
@@ -36,7 +50,7 @@ div.logo-container{
   justify-content: center;
 }
 
-.logo-container .header-img{
+.logo-container .logo{
   width: auto;
   height: 200px;
   margin-top: 5px;
@@ -59,7 +73,7 @@ nav{
 .nav-list a{
   width: 100%;
   margin: 15px;
-  border: 1px solid #f95dff;
+  border: 1px solid var(--second-color);
   border-radius: 3px;
   padding: 10px;
   text-align: center;
@@ -82,6 +96,6 @@ nav{
 }
 .nav-list a:focus{
   outline: 0;
-  box-shadow: 0.5px -0.5px 6px 1px yellow, -0.5px 1.5px 6px 1px yellow;
+  box-shadow: 0.5px -0.5px 6px 1px var(--fourth-color), -0.5px 1.5px 6px 1px var(--fourth-color);
   transition: box-shadow 0.1s ease;
 }

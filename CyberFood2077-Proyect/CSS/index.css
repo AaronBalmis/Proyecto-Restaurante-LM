@@ -6,6 +6,7 @@
 body{
   background: black;
   font-family: monospace, 'Courier New', Courier;
+  background-image: url(/Recursos/IMG/index.jpg);
 }
 header{
   position: relative;
@@ -47,12 +48,13 @@ div.logo-container{
   justify-content: center;
 }
 
-.logo-container .header-img{
+.logo-container .logo{
   width: auto;
-  height: 200px;
+  height: 150px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20em;
 }
 
 nav{
@@ -100,7 +102,7 @@ nav{
 /*///////// Animaciones ////////*/
 
 
-.nav-list > li:hover {
+/* .nav-list > li:hover {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -243,4 +245,4 @@ nav{
   100% {
      clip: rect(67px, 9999px, 122px, 0);
   }
-}
+} */
