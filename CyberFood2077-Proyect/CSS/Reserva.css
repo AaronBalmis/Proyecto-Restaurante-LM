@@ -7,6 +7,10 @@ body{
   min-height: 100vh;
   font-family: monospace, 'Courier New', Courier;
   background-image: url(/Recursos/IMG/Ciudad-Neon.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  backdrop-filter:blur(2px);
 
 }
 
@@ -103,6 +107,48 @@ nav{
 
 .principal{
   min-height: 30vh;
-  margin-top: 25%;
+  margin-top: 10%;
 }
+h3{
+  font-size: x-large;
+}
+section{
+  color: white;
+  display: flex;
+flex-direction: column;
+align-items: center;
 
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  color: white;
+  margin: auto;
+  box-shadow: 2px 1px 3px black;
+}
+input{
+  text-align: center;
+  height: 20px;
+  border-radius: 250px;
+  width: 300px;
+  margin: 3px;
+}
+.boton_formulario{
+  border-radius: 100px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid var(--seventh--color);
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  
+}
+button:hover,
+button:focus {
+  outline: none;
+  background: linear-gradient(var(--primary-color),var(--sixth--color));
+  color: #fff;
+}
