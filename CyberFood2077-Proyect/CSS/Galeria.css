@@ -12,7 +12,49 @@ header{
   width: 100%;
   min-height: 20vh;
 }
-
+:root{
+  --primary-color: #BF2188; 
+  --glitched-duration: 0.9s;
+  --second-color : #F22E76;
+  --third-color: #411D59;
+  --fourth-color: #F2A444;
+  --fifth--color: #42FBFD;
+  --sixth--color: #2F71AB;
+  --seventh--color:#1B2350;
+  --eitght--color: var(--eitght--color);
+  
+}
+/*///////////////////// ANIMACIONES ////////////////*/
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 var(--fifth--color), -0.03em -0.04em 0 var(--second-color),
+      0.025em 0.04em 0 var(--eitght--color);
+  }
+  15% {
+    text-shadow: 0.05em 0 0 var(--fifth--color), -0.03em -0.04em 0 var(--second-color),
+      0.025em 0.04em 0 var(--eitght--color);
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 var(--fifth--color), 0.025em 0.035em 0 var(--second-color),
+      -0.05em -0.05em 0 var(--eitght--color);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 var(--fifth--color), 0.025em 0.035em 0 var(--second-color),
+      -0.05em -0.05em 0 var(--eitght--color);
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 var(--fifth--color), 0.03em 0 0 var(--second-color),
+      0 -0.04em 0 var(--eitght--color);
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 var(--fifth--color), 0.03em 0 0 var(--second-color),
+      0 -0.04em 0 var(--eitght--color);
+  }
+  100% {
+    text-shadow: -0.05em 0 0 var(--fifth--color), -0.025em -0.04em 0 var(--second-color),
+      -0.04em -0.025em 0 var(--eitght--color);
+  }
+}
 /*/////////////////////CABECERA/////////////////////*/
 
 .header-fixed{
@@ -29,7 +71,7 @@ header{
   justify-content: space-between;
   z-index: 10;
   box-sizing: border-box;
-  box-shadow: 0 -1px 10px 3px #f95dff
+  box-shadow: 0 -1px 10px 3px var(--second-color)
 }
 div.logo-container{
   margin: 5px;
@@ -37,7 +79,7 @@ div.logo-container{
   justify-content: center;
 }
 
-.logo-container .header-img{
+.logo-container .logo{
   width: auto;
   height: 200px;
   margin-top: 5px;
@@ -60,7 +102,7 @@ nav{
 .nav-list a{
   width: 100%;
   margin: 15px;
-  border: 1px solid #f95dff;
+  border: 1px solid var(--second-color);
   border-radius: 3px;
   padding: 10px;
   text-align: center;
@@ -87,7 +129,12 @@ nav{
   transition: box-shadow 0.1s ease;
 }
 
+/*//////////*/
 .principal{
   min-height: 30vh;
   margin-top: 25%;
+}
+
+.principal p{
+  color: white;
 }
