@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  background-image: url(/Recursos/IMG/carta.jpg);
-  background: no-repeat;
-}
+
 body{
   font-family: monospace, 'Courier New', Courier;
+  background-image: url(/Recursos/IMG/carta.jpg);
+  background-size: cover;
+  background-position: bottom;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
 }
 header{
   position: relative;
@@ -98,4 +100,42 @@ nav{
   outline: 0;
   box-shadow: 0.5px -0.5px 6px 1px var(--fourth-color), -0.5px 1.5px 6px 1px var(--fourth-color);
   transition: box-shadow 0.1s ease;
+}
+
+/*///////////////////// MAIN /////////////////////*/
+
+.principal {
+  min-height: 60vh;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 5%;
+  padding: 1em;
+}
+
+
+/*///////////////////// FOOTER /////////////////////*/
+
+footer {
+  min-height: 20vh;
+  position: relative;
+  width: 100%;
+  background: var(--second-color);
+  margin-top: 40px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 6;
+}
+
+footer .social-media {
+  padding: 20px 50px 10px;
+}
+
+footer p {
+  justify-content: left;
 }

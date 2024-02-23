@@ -164,3 +164,28 @@ button:focus {
   background: linear-gradient(var(--primary-color),var(--sixth--color));
   color: #fff;
 }
+
+
+/*///////////////////// FOOTER /////////////////////*/
+
+footer {
+  min-height: 20vh;
+  position: relative;
+  width: 100%;
+  background: var(--second-color);
+  margin-top: 40px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 6;
+}
+
+footer .social-media {
+  padding: 20px 50px 10px;
+}
+
+footer p {
+  justify-content: left;
+}

@@ -190,7 +190,7 @@ a:is(:hover, :focus) figure::after {
 
 a:is(:hover, :focus) figcaption {
   opacity: 2;
-  transition: opacity 800ms;
+  transition: opacity 700ms;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -199,14 +199,14 @@ a:is(:hover, :focus) figcaption {
   }
 
   figure::after {
-    border-radius: 70%;
+    border-radius: 60%;
     opacity: 1;
     transform: scale(0);
-    transition: transform 900ms;
+    transition: transform 700ms;
   }
 
   a:is(:hover, :focus) figure::after {
-    transform: scale(2.5);
+    transform: scale(2);
   }
 
   a:is(:hover, :focus) figcaption {
