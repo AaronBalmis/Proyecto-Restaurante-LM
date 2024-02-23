@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto-Restaurante</title>
     <link rel="stylesheet" type="text/css" href="/CSS/Reserva.css">
 </head>
+
 <body>
     <div class="container">
         <header class='header'>
             <section class="header-fixed">
                 <div class="logo-container">
-                    <a href="/Webs/INDEX.HTML"><img
-                        src="/Recursos/IMG/Logo.png".
-                        alt=" Restaurante logo" class="logo"></a>
+                    <a href="/Webs/INDEX.HTML"><img src="/Recursos/IMG/Logo.png" . alt=" Restaurante logo"
+                            class="logo"></a>
                 </div>
                 <nav class='nav-bar'>
                     <ul class="nav-list">
@@ -24,7 +25,7 @@
                             <li>Carta</li>
                         </a>
                         <a href="/Webs/UBICACION.HTML" class='nav-link'>
-                            <li>Hubicación</li>
+                            <li>Ubicación</li>
                         </a>
                         <a href="/Webs/GALERIA.HTML" class='nav-link'>
                             <li>Galería</li>
@@ -39,8 +40,33 @@
     </div>
     <div class="principal">
         <main>
-            pepe pollas
+            <form class="formulario">
+                <fieldset>
+                    <legend>
+                        <h3>Bienvenido a CyperpunkFood</h3>
+                        <!-- <p>"¡Completa el formulario del sabor del mañana! Disfruta hoy de la comida futurista en un mundo
+                        cyberpunk."</p> -->
+                    </legend>
+                    <label>Nombre</label>
+                    <input type="text" autofocus>
+                    <label>Apellido</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email" placeholder="Escribe aqui tu correo electronico">
+                    <label>Telefono</label>
+                    <input required  type="tel" pattern="[0-9]{9}">
+                    <label>Fecha de la reserva</label>
+                    <input type="date">
+                    <label>Hora de la reserva</label>
+                    <input type="time">
+                    <label>¿Algo que deberiamos saber?</label>
+                    <textarea cols="50" rows="5"></textarea>
+                    <input type="reset" class="reset">
+                    <button class="boton_formulario">Enviar</button>
+            </fieldset>
+            </form>
         </main>
     </div>
 </body>
+
 </html>
