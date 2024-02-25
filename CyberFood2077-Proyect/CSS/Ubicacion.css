@@ -1,15 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Cyberpunk Is Not Dead', sans-serif; ;
 }
 body{
   background: black;
   font-family: monospace, 'Courier New', Courier;
+  background-image: url(/Recursos/IMG/Ubicacion.jpg);
+  background-size: cover;
+  background-position: bottom;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
 }
 header{
   position: relative;
   width: 100%;
+  min-height: 30vh;
 }
 
 :root{
@@ -31,8 +39,8 @@ header{
   left: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
   color: rgb(241, 241, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
-  background: rgba(0, 0, 0, 0.9);
   padding: 10px;
   width: 100%;
   display: flex;
@@ -78,7 +86,7 @@ nav{
   text-decoration: none;
   color: inherit;
   letter-spacing: 1.5px;
-  font-weight: 640;
+
 }
 .nav-list a li{
   list-style: none;
@@ -98,11 +106,72 @@ nav{
   transition: box-shadow 0.1s ease;
 }
 .principal{
-  min-height: 30vh;
-  margin-top: 50%;
+  min-height: 60vh;
+  margin-top: 10%;
 }
-.mapa{
+
+section{
+  color: white;
+ text-align: center;
+ margin: 5px;
+}
+h3{
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 3px 5px var(--primary-color);;
+}
+mapa{
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+
+.horario{
+font-size: larger;
+text-shadow: 2px 3px 5px black;
+
+}
+.direccion{
+  font-size: larger;
+  text-shadow: 2px 3px 5px black;
   
-  width: 500px;
-  height: 500px;
+}
+
+/*///////////////////// FOOTER /////////////////////*/
+
+footer {
+  min-height: 20vh;
+  position: relative;
+  width: 100%;
+  background: var(--primary-color );
+  margin-top: 40px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social-media {
+  padding: 20px 50px 10px;
+}
+
+footer p {
+  justify-content: left;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover
+{
+  text-decoration: none;
+  color: black;
 }
