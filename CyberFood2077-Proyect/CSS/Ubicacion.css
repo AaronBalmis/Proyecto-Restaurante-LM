@@ -8,6 +8,10 @@
 body{
   background: black;
   font-family: monospace, 'Courier New', Courier;
+  background-size: cover;
+  background-position: bottom;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
   background-image: url(/Recursos/IMG/Ubicacion.jpg);
   background-size: cover;
   background-position: bottom;
@@ -174,4 +178,28 @@ footer a:hover
 {
   text-decoration: none;
   color: black;
+}
+
+/*///////////////////// FOOTER /////////////////////*/
+
+footer {
+  min-height: 20vh;
+  position: relative;
+  width: 100%;
+  background: var(--second-color);
+  margin-top: 40px;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 6;
+}
+
+footer .social-media {
+  padding: 20px 50px 10px;
+}
+
+footer p {
+  justify-content: left;
 }

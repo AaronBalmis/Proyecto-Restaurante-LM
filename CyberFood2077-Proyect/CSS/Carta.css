@@ -9,11 +9,6 @@
 body{
   min-height: 100vh;
   font-family: monospace, 'Courier New', Courier;
-  background-image: url(/Recursos/IMG/carta.jpg);
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(2px);
 }
 header{
   position: relative;
@@ -103,53 +98,4 @@ nav{
   outline: 0;
   box-shadow: 0.5px -0.5px 6px 1px var(--fourth-color), -0.5px 1.5px 6px 1px var(--fourth-color);
   transition: box-shadow 0.1s ease;
-}
-
-/*///////////////////// MAIN /////////////////////*/
-
-.principal {
-  min-height: 60vh;
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-/*///////////////////// FOOTER /////////////////////*/
-
-footer {
-  min-height: 20vh;
-  position: relative;
-  width: 100%;
-  background: var(--primary-color );
-  margin-top: 40px;
-  min-height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-footer .social-media {
-  padding: 20px 50px 10px;
-}
-
-footer ul{
-  list-style: none;
-}
-
-footer p {
-  justify-content: left;
-}
-
-footer a{
-  text-decoration: none;
-  color: black;
-}
-
-footer a:hover
-{
-  text-decoration: none;
-  color: black;
 }
