@@ -8,6 +8,7 @@
 
   
 }
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
 body{
   min-height: 100vh;
   font-family: monospace, 'Courier New', Courier;
@@ -101,8 +102,8 @@ nav{
   background: linear-gradient(var(--primary-color),var(--sixth--color));
   cursor: pointer;
   color: black;
-  transition: background 0.4s ease;
-  border-radius: 40px;
+  border-radius: 50px;
+  transition: border-radius 1s ease;
 
 }
 .nav-list a:focus{
@@ -117,7 +118,7 @@ nav{
   margin-top: 10%;
 }
 
-p{
+.principal p{
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
@@ -184,18 +185,17 @@ button:focus {
   color: #fff;
 }
 footer {
-  min-height: 20vh;
-  position: relative;
-  width: 100%;
-  background: var(--primary-color );
   margin-top: 40px;
-  min-height: 5vh;
+  min-height: 10vh;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  background-color: rgba(191, 33, 136, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
 footer .social-media {
   padding: 20px 50px 10px;
 }
@@ -206,6 +206,7 @@ footer p {
 
 footer ul{
   list-style: none;
+  display: flex;
 }
 
 footer a{
@@ -213,8 +214,53 @@ footer a{
   color: black;
 }
 
-footer a:hover
-{
+footer ul li {
+  margin-right: 10em; /* Ajusta el espacio entre los elementos li */
+  margin-left: 10%; 
+}
+
+footer a:hover {
   text-decoration: none;
   color: black;
+}
+
+footer .gg-home{
+  margin-top: 5px;
+}
+
+/*///////////////////// MEDIA /////////////////////*/
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+     justify-content: flex-end; 
+  }
+  
+  .nav-list a {
+     margin: 0 20px; 
+  }
+
+  .principal {
+     margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-list {
+     justify-content: space-evenly;
+  }
+
+  .nav-list a {
+     margin: 0 30px; 
+  }
+
+  .principal {
+     flex-direction: row; 
+     align-items: flex-start; 
+     margin-top: 5%; /
+  }
+
+  .principal .content1,
+  .principal .content2 {
+     width: 45%; 
+  }
 }
