@@ -4,21 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
 body{
   min-height: 100vh;
   font-family: monospace, 'Courier New', Courier;
-  background-image: url(/Recursos/IMG/carta.jpg);
+  background-image: url(/CyberFood2077-Proyect/Recursos/IMG/carta.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   backdrop-filter: blur(2px);
-  background-image: url(/Recursos/IMG/carta.jpg);
-  background-size: cover;
-  background-position: bottom;
-  backdrop-filter: blur(2px);
-  background-repeat: no-repeat;
 }
+
 header{
   position: relative;
   min-height:30vh;
@@ -78,6 +73,7 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style: none;
 }
 .nav-list a{
   width: 100%;
@@ -156,7 +152,7 @@ footer a{
 }
 
 footer ul li {
-  margin-right: 10em; /* Ajusta el espacio entre los elementos li */
+  margin-right: 10em; 
   margin-left: 10%; 
 }
 

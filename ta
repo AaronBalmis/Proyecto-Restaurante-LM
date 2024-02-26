@@ -1,0 +1,192 @@
+[33mcommit 5268d26a26b20ff79be200766977a2ac75e90783[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 26 10:30:37 2024 +0100
+
+    Cambios menores
+
+[33mcommit 2b4dba9bd55d68522b26fd46d52094b66fcf0936[m
+Merge: 381d61d 112384e
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 26 10:16:07 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 381d61d6bfd3c53aff6e5f33661cc718ca4e14cd[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 26 10:11:48 2024 +0100
+
+    Index, Galería y varios retoques de los footers terminados
+
+[33mcommit 112384e4c41444a04bbc0cbfaceeb70674366720[m
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Mon Feb 26 00:13:41 2024 +0100
+
+    Actualizacion
+
+[33mcommit 79a99b292ef6399355e1fdb3d62dd3c48255848f[m
+Merge: 612dbd3 3db513d
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Mon Feb 26 00:13:18 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 612dbd339edada0b06750fe1aa3f1f64d32cd89e[m
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Sun Feb 25 23:57:58 2024 +0100
+
+    Actualizacion
+
+[33mcommit 3db513d2328da5dd833b69c6a06298e01de6d056[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Fri Feb 23 11:39:02 2024 +0100
+
+    Cambios generales, footer añadido
+
+[33mcommit 447b3d33a3f11b84c4db96f8adf7e1546c347bfc[m
+Merge: 66c57ba 191e096
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Fri Feb 23 11:22:54 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 191e096b1e1705f07bcc8fa18dc5dbf58263f8cd[m
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Fri Feb 23 09:25:34 2024 +0100
+
+    Actualizacion de la section reserva, cambie el color del nav, y algunas modificaciones al formulario
+
+[33mcommit 73bddf848b03b6a69207d77890b2b7202898c5f4[m
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Thu Feb 22 22:58:28 2024 +0100
+
+    Añadi el formulario a la section de reservas, y el mapa a la section de ubicacion
+
+[33mcommit 66c57baf3f31e800f238b12cfc46b6b9c6dcfdae[m
+Author: Aarón Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Thu Feb 22 20:24:05 2024 +0100
+
+    Actualizacion en Index y Galeria
+
+[33mcommit a6458e2749d7d49b6528f97fe1a8fda5eb991362[m
+Author: Aarón Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Thu Feb 22 19:25:02 2024 +0100
+
+    Galería cambios
+
+[33mcommit d53f16338cb9e301c34954076cdc39525c8887bc[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Wed Feb 21 14:01:18 2024 +0100
+
+    Cambios menores
+
+[33mcommit 90af00968167bd188304f01777219c67e8daa108[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Wed Feb 21 13:34:39 2024 +0100
+
+    Probando el fondo
+
+[33mcommit c86a07b501484478e49912a12e8cec2374d28a3f[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Wed Feb 21 13:32:21 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 799e22e0b452e9002a4796040df467815e676e59[m
+Merge: a701fa3 54c5642
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 19 11:15:37 2024 +0100
+
+    Cambios en Galería
+
+[33mcommit a701fa36d73d0cec2548e35f3a1b984e141ba3ca[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 19 10:28:35 2024 +0100
+
+    pequeños cambios
+
+[33mcommit 54c564209aae22227cbcfee238fae56f6269520c[m
+Merge: 740c186 e563122
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Mon Feb 19 09:32:20 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 740c1866ecde87d34ec5ffbeb84baedeeba350e4[m
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Fri Feb 16 12:56:18 2024 +0100
+
+    Actualizacion
+
+[33mcommit e563122985ac2bff7969c89cb81c345a2ac7e6b3[m
+Merge: 0b06eff 87eab81
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Tue Feb 13 13:24:08 2024 +0100
+
+    Merge branch 'main' of https://github.com/AaronBalmis/Proyecto-Restaurante-LM
+
+[33mcommit 0b06effc6ca2dc013d1d321e9442e854d877b788[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Tue Feb 13 13:22:51 2024 +0100
+
+    Retoques al header
+
+[33mcommit 87eab818b40da760c27f81076e7b3564778f4c13[m
+Merge: ebd0af5 c81651f
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Tue Feb 13 12:10:22 2024 +0100
+
+    Prueba 1 #1
+
+[33mcommit ebd0af54b7b604268bc822b2410a84f9c4485df3[m
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Tue Feb 13 12:06:48 2024 +0100
+
+    Guardar cambios locales en index.css
+
+[33mcommit 58e30f00b04ffa2dd7e766f49e5eb8f6b8563f54[m
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Tue Feb 13 11:57:16 2024 +0100
+
+    Actualizacion
+
+[33mcommit c81651f0ca988c6cc31917c4635966f14a5f1d90[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Tue Feb 13 11:55:26 2024 +0100
+
+    pequeños retoques al header #1
+
+[33mcommit 26cea1779659f9a31e008479650eea917920cda6[m
+Author: Daniel Gil <da.gil@iesdoctorbalmis.com>
+Date:   Tue Feb 13 11:54:39 2024 +0100
+
+    Subimos el logo
+
+[33mcommit a6879f5d93850b62c85127684284fc2ba1a256c7[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Tue Feb 13 10:46:51 2024 +0100
+
+    Primera versión del Header
+
+[33mcommit 329968899d5fa6f766c3ee0124ba3d0af3603aa9[m
+Author: dagil23 <da.gil@iesdoctorbalmis.com>
+Date:   Mon Feb 12 20:57:02 2024 +0100
+
+    Agregamos los css al proyecto
+
+[33mcommit e720aa663754f9da8adef166ddb0da17f7737481[m
+Author: AaronBalmis <149048729+AaronBalmis@users.noreply.github.com>
+Date:   Mon Feb 12 13:41:35 2024 +0100
+
+    README DEL REPOSITORIO.md
+
+[33mcommit 7e3b7067da82d5a0c131ec54ee19779de0a0ea30[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 12 13:37:54 2024 +0100
+
+    Readmes añadidos en CSS y RECURSOS
+
+[33mcommit 588655d12a29aeaec82ca951c11ab1489665610c[m
+Author: Aaron Villaverde <aaron.villaverde@iesdoctorbalmis.com>
+Date:   Mon Feb 12 13:31:02 2024 +0100
+
+    Estructura de carpetas

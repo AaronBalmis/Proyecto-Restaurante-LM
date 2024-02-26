@@ -7,7 +7,7 @@
 body {
    background: black;
    font-family: 'Cyberpunk Is Not Dead', sans-serif;
-   background-image: url(/Recursos/IMG/index.jpg);
+   background-image: url(/CyberFood2077-Proyect/Recursos/IMG/index.jpg);
    background-size: cover;
    background-position: bottom;
    backdrop-filter: blur(2px);
@@ -75,6 +75,7 @@ nav {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
+   list-style: none;
 }
 
 .nav-list a {
@@ -184,8 +185,7 @@ footer {
    align-items: center;
    flex-direction: column;
  }
- footer .social-media {
- }
+ 
  footer .social-media {
    padding: 20px 50px 10px;
  }
