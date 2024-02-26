@@ -4,6 +4,7 @@
    box-sizing: border-box;
 }
 @import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
 body {
    background: black;
    font-family: 'Cyberpunk Is Not Dead', sans-serif;
@@ -174,12 +175,18 @@ footer {
    min-height: 10vh;
    width: 100%;
    padding: 0;
+   margin-top: 40px;
+   min-height: 10vh;
+   width: 100%;
+   padding: 0;
    position: relative;
    background-color: rgba(191, 33, 136, 0.9);
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+ }
+ footer .social-media {
  }
  footer .social-media {
    padding: 20px 50px 10px;
