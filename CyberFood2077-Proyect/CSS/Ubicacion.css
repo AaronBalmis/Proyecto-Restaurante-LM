@@ -106,16 +106,39 @@ nav{
   box-shadow: 0.5px -0.5px 6px 1px yellow, -0.5px 1.5px 6px 1px yellow;
   transition: box-shadow 0.1s ease;
 }
+
 .principal{
   min-height: 60vh;
   margin-top: 10%;
 }
-.mapa{
-  
-  width: 500px;
-  height: 500px;
+
+section{
+  color: white;
+ text-align: center;
+ margin: 5px;
+}
+h3{
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 3px 5px var(--primary-color);;
+}
+mapa{
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
 
+
+.horario{
+font-size: larger;
+text-shadow: 2px 3px 5px black;
+
+}
+.direccion{
+  font-size: larger;
+  text-shadow: 2px 3px 5px black;
+  
+}
 /*///////////////////// FOOTER /////////////////////*/
 
 footer {
