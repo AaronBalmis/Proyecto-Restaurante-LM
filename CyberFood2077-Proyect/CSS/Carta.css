@@ -130,6 +130,7 @@ nav{
   padding: 10px;
   margin: 5px;
  min-height: 30vh;
+ cursor: pointer;
 }
 .plato-carta:hover{
   background: linear-gradient(var(--primary-color),var(--sixth--color));
