@@ -180,7 +180,7 @@ label {
 button:hover,
 button:focus {
   outline: none;
-  background: linear-gradient(var(--primary-color),var(--sixth--color));
+  /* background: linear-gradient(var(--primary-color),var(--sixth--color)); */
   color: #fff;
 }
 footer {
