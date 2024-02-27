@@ -123,11 +123,14 @@ h3{
   text-decoration: underline;
   text-shadow: 2px 3px 5px var(--primary-color);;
 }
-mapa{
-  margin-top: 25px;
-  margin-bottom: 100px;
-}
 
+iframe{
+  border-radius: 10px;
+min-height: 50vh;
+box-shadow: 10px 25px 25px black ;
+
+  
+}
 
 .horario{
 font-size: larger;
